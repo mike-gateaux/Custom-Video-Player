@@ -1,0 +1,12 @@
+a custom video player system that has NOOOO limits!
+You don't gotta upload a video for like 2k robux using VideoFrame, which has a 20 second limit.
+This system however allows you to download a video file from your own GitHub repository (although you need to convert it into RGBA pixel buffers)
+and supports any video length or FPS. I do have to mention though, the max resolution a video can have is 1024x1024,
+meaning for 16:9 videos (which you're gonna use a LOT for stuff like cinematics) you'd have to use 1014x570.
+Other than that though, this system is very flexible and will receive even better polishing and features in the near future.
+You could even use this for like, some cinematics or cutscenes ig, after all you can play any video with it.
+
+
+SORRY for yapping on that part, anyways this works using EditableImages
+that can read the video buffers (like I said, you can't just drag and drop an .mp4 video, you gotta run
+a python script I'm still finalizing and yet to add)
