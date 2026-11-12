@@ -1,0 +1,36 @@
+{
+  "name": "videoPlayer",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "ReplicatedCodebase": {
+        "$path": "src/replicated"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/global.server.luau"
+      }
+    },
+
+    "ServerStorage": {
+      "ServerCodebase": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/local.client.luau"
+        },
+        "$className": "StarterPlayerScripts"
+      }
+    }
+  }
+}
